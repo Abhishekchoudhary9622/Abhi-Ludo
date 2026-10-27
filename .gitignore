@@ -1,0 +1,60 @@
+# Flutter / Dart
+mobile/.dart_tool/
+**/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+**/build/
+mobile/android/.gradle/
+**/android/.gradle/
+mobile/android/local.properties
+mobile/android/**/GeneratedPluginRegistrant.java
+mobile/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/app.flx
+mobile/ios/Flutter/ephemeral/
+mobile/ios/Runner.xcworkspace/xcuserdata/
+mobile/ios/Runner.xcodeproj/xcuserdata/
+mobile/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+*.iml
+*.g.dart
+
+# IDEs & Editors
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+server/node_modules/
+**/node_modules/
+server/npm-debug.log*
+server/yarn-error.log*
+server/.env
+server/.env.*
+!server/.env.example
+server/coverage/
+server/.nyc_output/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+*.swp

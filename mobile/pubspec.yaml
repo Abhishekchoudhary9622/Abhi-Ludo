@@ -1,0 +1,48 @@
+name: abhi_ludo
+description: "Abhi Ludo - A Ludo King-style board game"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.4.2
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.3.2
+  socket_io_client: ^3.0.2
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka-Variable.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Variable.ttf
+
+  assets:
+    - assets/fonts/Fredoka-OFL.txt
+    - assets/fonts/Nunito-OFL.txt
+    - assets/audio/
+    - assets/images/
+    - assets/logo.jpg
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/logo.jpg"
+  min_sdk_android: 21
